@@ -1,5 +1,6 @@
 import React from 'react'
-import BalanceView from '@/components/BalanceView'  
+import BalanceView from '@/components/BalanceView' 
+import Piecharts from '@/components/Piecharts' 
 
 const page = () => {
   return (
@@ -7,7 +8,7 @@ const page = () => {
       <p className='font-bold text-xl pt-5'>Dashboard</p>
 
     <BalanceView />
-   
+   <Piecharts />
     </div>
   )
 }
